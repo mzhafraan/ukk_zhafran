@@ -32,12 +32,14 @@
                 <div class="card-body">
                   
             <!-- Bagian menampilkan komentar -->
+            <span class="align-left">
             @foreach($foto->komentars as $komentar)
             <div class="komentar">
                 <p><strong>{{ $komentar->user->name }}:</strong> {{ $komentar->isi_komentar }}</p>
                 <p class="text-muted">{{ $komentar->created_at->diffForHumans() }}</p>
             </div>
             @endforeach
+            </span>
 
 
             <!-- Formulir untuk menambah komentar baru -->

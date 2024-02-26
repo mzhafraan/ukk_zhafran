@@ -20,10 +20,10 @@
                     </button>
                 </form>
 
-
-                <div class="badge badge-primary">Uploaded by: {{ $foto->user->name }}</div>
-                <div class="badge badge-secondary">Album: {{ $foto->album->nama_album }}</div>
-                <div class="badge badge-info">{{ $foto->komentars->count() }} komentar</div>
+                <br>
+                        <div class="badge badge-pill badge-primary">Uploaded by: {{ $foto->user->name }}</div>
+                        <div class="badge badge-pill badge-secondary">Album: {{ $foto->album->nama_album }}</div>
+                        <div class="badge badge-pill badge-info">{{ $foto->komentars->count() }} komentar</div>
             </div>
 
             <br>

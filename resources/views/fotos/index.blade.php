@@ -13,7 +13,8 @@
         </div>
     </div>
 
-
+<div class="card">
+    <div class="card-body">
     <div class="row">
         @foreach($fotos as $foto)
             <div class="col-md-4 mb-4">
@@ -41,9 +42,9 @@
                 </div>
             </div>
         @endforeach
-
-
-        
+       
     </div>
+</div>
+</div>
 </div>
 @endsection

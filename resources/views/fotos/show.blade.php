@@ -23,6 +23,9 @@
                 <div class="badge badge-secondary">Album: {{ $foto->album->nama_album }}</div>
                 <div class="badge badge-info">{{ $foto->komentars->count() }} komentar</div>
             </div>
+            <div class="card">
+                <div class="card-body">
+                  
             <!-- Bagian menampilkan komentar -->
             @foreach($foto->komentars as $komentar)
             <div class="komentar">
@@ -43,6 +46,8 @@
                 <button type="submit" class="btn btn-primary">Kirim Komentar</button>
             </form>
             @endif
+                </div>
+              </div>
         </div>
     </div>
 </div>

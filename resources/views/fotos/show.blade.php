@@ -6,7 +6,9 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="foto-detail">
-                <img src="{{ Storage::url($foto->lokasi_file) }}" class="img-fluid" alt="{{ $foto->judul_foto }}">
+                <div>
+                <img src="{{ Storage::url($foto->lokasi_file) }}" class="img-fluid shadow p-0 mb-5 bg-white rounded" alt="{{ $foto->judul_foto }}">
+                </div>
                 <h3 class="mt-3">{{ $foto->judul_foto }}</h3>
                 <p>{{ $foto->deskripsi_foto }}</p>
 
@@ -23,7 +25,10 @@
                 <div class="badge badge-secondary">Album: {{ $foto->album->nama_album }}</div>
                 <div class="badge badge-info">{{ $foto->komentars->count() }} komentar</div>
             </div>
+
+            <br>
             <div class="card">
+                <h5 class="card-header">Komentar</h5>
                 <div class="card-body">
                   
             <!-- Bagian menampilkan komentar -->

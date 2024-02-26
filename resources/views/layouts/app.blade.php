@@ -29,6 +29,9 @@
     <style>
         body {
             padding-top: 5rem;
+            font-family: "Plus Jakarta Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal; 
         }
         .starter-template {
             padding: 3rem 1.5rem;

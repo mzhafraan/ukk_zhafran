@@ -23,7 +23,7 @@
     <!-- Lightbox CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
 
-    <link rel="icon" href="img/paw-solid.svg" type="image/x-icon">
+    <link rel="icon" href="public/img/paw-solid.svg" type="image/x-icon">
 
     <!-- Custom CSS -->
     <style>
